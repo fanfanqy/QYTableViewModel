@@ -10,3 +10,12 @@
 #endif
 #endif
 
+#ifdef __OBJC__
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <Masonry/Masonry.h>
+#import "UIImage+QYBundle.h"
+
+#import "QYTableViewModelConst.h"
+#endif

@@ -7,99 +7,305 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CE7CE1C0F53876AD3865D237B3DA240 /* Pods-QYTableViewModel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C92B90D8DDE905510B492F5EC76C37 /* Pods-QYTableViewModel_Example-dummy.m */; };
-		0D330BAB9CD37A439F651DE40C071220 /* Pods-QYTableViewModel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E20247D74BF0FA90867336480485A978 /* Pods-QYTableViewModel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E22D605FA28DCB92D10BF7C9C68F5B7 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C138F3974F6259F693E10218DB9BA14 /* ReplaceMe.m */; };
-		183AD29B8117C4BCAC1969838B1A0841 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		22862BA36B2BFAB671D70905AC188352 /* QYTableViewModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 639F2B5FED530B73C7C52F00E72089AF /* QYTableViewModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2300BA665AA6CB02FD5DA8EA7ADCDA9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		43516A2A5C1D878AFA375636CBEDA4E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		73B410A99D13C017A1FFC9B999A7AFBE /* Pods-QYTableViewModel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8D1463F3F975C93DA6708FB276485F /* Pods-QYTableViewModel_Tests-dummy.m */; };
-		A957A4446611DB793E706CDDD7DDBFC6 /* QYTableViewModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB40BFFC78A27E0E998A7F919E00705C /* QYTableViewModel-dummy.m */; };
-		B6F9DC9100B465CE82CE22F54C88C673 /* Pods-QYTableViewModel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 756F8C84714AA025E28A0D5CA29340D8 /* Pods-QYTableViewModel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E8CCAE597756C61B2D7B60EEF4A29E4 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12DE9BEEC4C6AD451D9659F063610A85 /* tf_element_card_bg_middle.png in Resources */ = {isa = PBXBuildFile; fileRef = 2475C12816398F2FE5B3ED5BF1C5A9E4 /* tf_element_card_bg_middle.png */; };
+		14945982C16EABE739863F7476EC34FA /* QYClickEffectView.h in Headers */ = {isa = PBXBuildFile; fileRef = 46FCE96F841419DE0D1659B155FEAA50 /* QYClickEffectView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19300CF68F5718C6F9C3476F1A98C1DC /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */; };
+		1B433A1BF92BBD5811F61A000E4771C2 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F14A83186A9278959854C010E9EEC90 /* QYTableViewModel-QYTableViewModel in Resources */ = {isa = PBXBuildFile; fileRef = F80FB66E7A932CDDF7097CBA10992B8B /* QYTableViewModel-QYTableViewModel */; };
+		2839E3707C14798138E8A0C72ACE4C25 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A29B5204D75605B6AD5ED2E3A75BF2C /* QYBaseTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 984D253D1E56EEDF693D970B7F2E3961 /* QYBaseTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BFEDA74D449B77E2CB2E48D7A6731A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		2D2190F617DE2B68C284855CCF686FFD /* Pods-QYTableViewModel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C92B90D8DDE905510B492F5EC76C37 /* Pods-QYTableViewModel_Example-dummy.m */; };
+		2FEF9B1F203C8999654005F05A900558 /* QYBaseTableInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A196ABBEABB85D0303A8231EB4620504 /* QYBaseTableInfo.m */; };
+		31F7C35C8863FA25A741A884E21BE7D0 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39543B29B33B72C130DC8BF0881D2C30 /* tf_element_card_bg_top.png in Resources */ = {isa = PBXBuildFile; fileRef = A998E9A70506785F106A12930BA9F363 /* tf_element_card_bg_top.png */; };
+		3C08C1057EEBED722D5684447A711FA0 /* QYBaseRowConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1204EFF5439E2357E1ADFF2D7F500105 /* QYBaseRowConfig.m */; };
+		3D0EFFE30E3193932A034220E3C4C0FA /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4838ADF3D2CD6AA3A2387CC95AAB123F /* Pods-QYTableViewModel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E20247D74BF0FA90867336480485A978 /* Pods-QYTableViewModel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CC9B43AD90714A316815FAA71DC89A2 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */; };
+		51E148BCC802A6894250CB4C165B88F2 /* Pods-QYTableViewModel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 756F8C84714AA025E28A0D5CA29340D8 /* Pods-QYTableViewModel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52080FB8C41B1B50D0833E03B42FC3B2 /* QYBaseRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1367DED2D1C130A92320EF87237431 /* QYBaseRow.m */; };
+		53305278F1654F968B4E02DF71B098BE /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */; };
+		54639B218543B84B15283A12F3B9FA72 /* QYBaseCellProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DDE6A258503D30292211C600296355D /* QYBaseCellProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54BEFE9F75005D327641073B838C6776 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */; };
+		567ABE0681AA82748435E32386DE12D7 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */; };
+		6087090144ED9326B89E74955655EDCE /* QYBaseSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6555218860A91076C69589A1BB2297C9 /* QYBaseSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61225B0B9AEC591476E30C9A575013B3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70530F94BAE3B16672E47E26F4F21D91 /* QYTableViewModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF374281897E23E1CB94151BF638C18 /* QYTableViewModel-dummy.m */; };
+		715AB2C777F6FCAB5EE0C667A909B698 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		746F9C7C830E727CDA365A3A493C428E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		76893FEECBE5C42BA61E5F028D67638C /* QYBaseSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB5C3140270858714F7E39C657330BB /* QYBaseSection.m */; };
+		78251F42EB680FB72F040A1986279CD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		78E05BF81C471DA400B995FFD165BE83 /* tf_element_card_bg_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = C2D4FA3B4EC330C6A99DFBA1272DBCB5 /* tf_element_card_bg_bottom.png */; };
+		79680DE9109B08CBB079FF5B343CB5CA /* QYTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 203CAF96CAC1CEB96A13CA482521AA66 /* QYTableViewDelegate.m */; };
+		7B05A8DE072977F90AA84A0E98E23167 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */; };
+		8171D105E2C5CD3C1357D544942B4446 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		8AE868BC3E2E6FC92F4717835180C47D /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		942943C87BFA0DE5328108EB72A8B067 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		9AAA9B63C9ECAC512600FE2CE10B1454 /* QYClickEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C73EF417C8F18AA302C6DD972E9B18A /* QYClickEffectView.m */; };
+		9CF183109DE5155A64A770010B32466A /* UIImage+QYBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B36E64971CD170AD71E6F759B2F9F19 /* UIImage+QYBundle.m */; };
+		A11E8EC2226697EB6CD6067F99F7083A /* QYTableViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 86EEF99F1DA663B73812D636331B6DBF /* QYTableViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1336977ADAAD492D6CFD089A8C6E358 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */; };
+		A83A6757F6C0003332D57B41FE24BEEA /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B10646B6AF73D470221EF25A5DEEEB6F /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4BE7728D87333785F811FED48CF134E /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61AA5459C2B345AD6D84D8A5111C9CE /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6F96F9A1834B935BC6C48E121F36748 /* QYBaseRowProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B98C889DA9034FCAE19F14D6DF29201 /* QYBaseRowProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA4F9275E9DC1B3D2480032134351101 /* QYBaseUIConfigProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F9C27B3445C93B4506DE37469449A6 /* QYBaseUIConfigProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC51325ECBF4582AFF54852F818F5A78 /* Pods-QYTableViewModel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8D1463F3F975C93DA6708FB276485F /* Pods-QYTableViewModel_Tests-dummy.m */; };
+		BE050DABC9BF806B3379AFD2367F4194 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEA99A49E5F8DA685E33DABA606041FF /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF98595B766FDCEDD2683DEB0C782090 /* QYTableViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB6A9914EB4C01D16E624059EDD5223 /* QYTableViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7D83D99D755676EF8A09CC77845BAF4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		C9375F078B54A9030D4B9C2E73222A5D /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */; };
+		CA3D2BEE4C7829DA76F7ACE88836993F /* QYBaseTableInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F5FF30AECAD3C54136AC11F5D48F6114 /* QYBaseTableInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CECDB459AFB5AD0040AF86378F2DBF97 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */; };
+		CEE7BDCC3F3073CBBF7A76BC6CF3E519 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0798EA5CF962A2403937103D767CE20 /* QYBaseRow.h in Headers */ = {isa = PBXBuildFile; fileRef = F33DB85A9E4E8862D6DD94A20FB3D2E6 /* QYBaseRow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1265BA870FFD6862690518E1FCD3E90 /* tf_element_card_bg_all.png in Resources */ = {isa = PBXBuildFile; fileRef = 972B388A733E41278EC956AAE4E95009 /* tf_element_card_bg_all.png */; };
+		E53FCD0CD1526B53074ED4EEF00131E9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5BE22067E466A7CA372423FBE588C05 /* QYBaseCardUIConfigProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4631513DEE451BC576EC189464D07095 /* QYBaseCardUIConfigProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E67AC1B5396BE485CD065368C8C63456 /* UIImage+QYBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F6DD212B1CD20B9E3D71F66AB42A4B4 /* UIImage+QYBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6FB269534400D40C1CE67D18EDD8A9A /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */; };
+		E8594270E14FAA7F7915CD10EE2A36CE /* QYBaseRowConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = BFCDA9C57A03436C92056CBEDC1CE297 /* QYBaseRowConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB58021B743356627000913C3C521182 /* QYTableViewModelConst.h in Headers */ = {isa = PBXBuildFile; fileRef = DA4F71CC4EC0D4C9125A3538A116F0C0 /* QYTableViewModelConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3A3B44A36AE5881648175BF6BB5A927 /* QYBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED4E7FF288E4770F04FC8C06B118C06 /* QYBaseTableViewCell.m */; };
+		FEA7D09A110673220C2BE56F2DB08270 /* QYTableViewModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB1355D627967D4C93C388C1737A587 /* QYTableViewModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		747B8AC016CDE624C4888962C3E04E9A /* PBXContainerItemProxy */ = {
+		37D8A07F78D2C154B61B5B748D29E910 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DC12512F829C2024B0BBE2F823C15A76;
 			remoteInfo = QYTableViewModel;
 		};
-		FBD317E59789398B80E450AE622D0AF0 /* PBXContainerItemProxy */ = {
+		7347CB8C5EF9D998EC7BD2F9E3B04951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		DC2C16C46EB7AD872957BE0FE9265662 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D41CCFD2767A00C550D5F5F51B8A6E6;
+			remoteInfo = "QYTableViewModel-QYTableViewModel";
+		};
+		DE32124B042118C28DC2402DE1ABE02D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4E9397BD89A9AF9939CB347D9777D213;
 			remoteInfo = "Pods-QYTableViewModel_Example";
 		};
+		FCD7C3D2503C0A2F0D06F54DC3C95C50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1436708A918693DF3FC08F5945A4C0B9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		072949DCB78DF0D06C957D3833A8E95F /* QYTableViewModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QYTableViewModel-prefix.pch"; sourceTree = "<group>"; };
+		0C73EF417C8F18AA302C6DD972E9B18A /* QYClickEffectView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYClickEffectView.m; sourceTree = "<group>"; };
+		0C75593677163F30AE76958DDE837098 /* QYTableViewModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QYTableViewModel.modulemap; sourceTree = "<group>"; };
+		1204EFF5439E2357E1ADFF2D7F500105 /* QYBaseRowConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYBaseRowConfig.m; sourceTree = "<group>"; };
+		13AE5AD2E17A3F42297C683E4B370E5C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		15FFDB0974ABBFA6D8049640E8071717 /* QYTableViewModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QYTableViewModel-Info.plist"; sourceTree = "<group>"; };
+		1CB6A9914EB4C01D16E624059EDD5223 /* QYTableViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYTableViewDelegate.h; sourceTree = "<group>"; };
+		1ED4E7FF288E4770F04FC8C06B118C06 /* QYBaseTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYBaseTableViewCell.m; sourceTree = "<group>"; };
 		1F8D1463F3F975C93DA6708FB276485F /* Pods-QYTableViewModel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QYTableViewModel_Tests-dummy.m"; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		203CAF96CAC1CEB96A13CA482521AA66 /* QYTableViewDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYTableViewDelegate.m; sourceTree = "<group>"; };
+		22CCB37FFC4A52332EBB07D86B52F436 /* QYTableViewModel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QYTableViewModel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2475C12816398F2FE5B3ED5BF1C5A9E4 /* tf_element_card_bg_middle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = tf_element_card_bg_middle.png; path = QYTableViewModel/Assets/tf_element_card_bg_middle.png; sourceTree = "<group>"; };
 		2524A0DA9315E62900CEB5F82A89EE32 /* Pods-QYTableViewModel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QYTableViewModel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		2CDD5AEBEDB894C32AC5202DDE468F25 /* Pods-QYTableViewModel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QYTableViewModel_Tests.modulemap"; sourceTree = "<group>"; };
-		3686A90D376BCDF7A1D69D4A09AB5750 /* QYTableViewModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QYTableViewModel-prefix.pch"; sourceTree = "<group>"; };
-		49A6920F07CA97FA871966BB66E5310A /* QYTableViewModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QYTableViewModel-Info.plist"; sourceTree = "<group>"; };
+		30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		3AB1355D627967D4C93C388C1737A587 /* QYTableViewModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QYTableViewModel-umbrella.h"; sourceTree = "<group>"; };
+		3B36E64971CD170AD71E6F759B2F9F19 /* UIImage+QYBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QYBundle.m"; sourceTree = "<group>"; };
+		3B98C889DA9034FCAE19F14D6DF29201 /* QYBaseRowProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYBaseRowProtocol.h; sourceTree = "<group>"; };
+		3E36D435BACEB1A4846EE803F1DBA265 /* QYTableViewModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QYTableViewModel.debug.xcconfig; sourceTree = "<group>"; };
+		3E537C1F47DA8B06DA4A71E3D14F4DE4 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		4631513DEE451BC576EC189464D07095 /* QYBaseCardUIConfigProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYBaseCardUIConfigProtocol.h; sourceTree = "<group>"; };
+		46FCE96F841419DE0D1659B155FEAA50 /* QYClickEffectView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYClickEffectView.h; sourceTree = "<group>"; };
+		470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		4F1BBF4D7AC7278C1389A12532E4579B /* Pods-QYTableViewModel_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QYTableViewModel_Example-Info.plist"; sourceTree = "<group>"; };
-		61FD5D444EDEC565A9F4B8C824853DE2 /* QYTableViewModel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QYTableViewModel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		639F2B5FED530B73C7C52F00E72089AF /* QYTableViewModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QYTableViewModel-umbrella.h"; sourceTree = "<group>"; };
-		6671D4FD1C246B5F552E0447DE241D5C /* QYTableViewModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QYTableViewModel.modulemap; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4F6DD212B1CD20B9E3D71F66AB42A4B4 /* UIImage+QYBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+QYBundle.h"; sourceTree = "<group>"; };
+		55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		5C95AE1A9BBB712D9E57948040BF8BBA /* QYTableViewModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QYTableViewModel.release.xcconfig; sourceTree = "<group>"; };
+		607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		6555218860A91076C69589A1BB2297C9 /* QYBaseSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYBaseSection.h; sourceTree = "<group>"; };
+		6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		756F8C84714AA025E28A0D5CA29340D8 /* Pods-QYTableViewModel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QYTableViewModel_Tests-umbrella.h"; sourceTree = "<group>"; };
-		84F4B4BC0D820BC2221442B6DC3FAB29 /* QYTableViewModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QYTableViewModel.release.xcconfig; sourceTree = "<group>"; };
+		78281F83B0C06870C099ACDF293C3142 /* ResourceBundle-QYTableViewModel-QYTableViewModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-QYTableViewModel-QYTableViewModel-Info.plist"; sourceTree = "<group>"; };
+		837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		86697235D44D87E207F606A189501921 /* Pods-QYTableViewModel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QYTableViewModel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8AAE98F66A9763BCFA093DA94CAF1FA3 /* QYTableViewModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QYTableViewModel.framework; path = QYTableViewModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		86EEF99F1DA663B73812D636331B6DBF /* QYTableViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYTableViewModel.h; sourceTree = "<group>"; };
+		8AAE98F66A9763BCFA093DA94CAF1FA3 /* QYTableViewModel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QYTableViewModel; path = QYTableViewModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		8FF3364DDD2177F963DBB45AA191DFB4 /* Pods-QYTableViewModel_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QYTableViewModel_Tests-Info.plist"; sourceTree = "<group>"; };
+		9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		9092C6A1227305D056A167B7A35E3F2E /* Pods-QYTableViewModel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QYTableViewModel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9C138F3974F6259F693E10218DB9BA14 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = QYTableViewModel/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		93F9C27B3445C93B4506DE37469449A6 /* QYBaseUIConfigProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYBaseUIConfigProtocol.h; sourceTree = "<group>"; };
+		972B388A733E41278EC956AAE4E95009 /* tf_element_card_bg_all.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = tf_element_card_bg_all.png; path = QYTableViewModel/Assets/tf_element_card_bg_all.png; sourceTree = "<group>"; };
+		984D253D1E56EEDF693D970B7F2E3961 /* QYBaseTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYBaseTableViewCell.h; sourceTree = "<group>"; };
+		9A1367DED2D1C130A92320EF87237431 /* QYBaseRow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYBaseRow.m; sourceTree = "<group>"; };
+		9AB5C3140270858714F7E39C657330BB /* QYBaseSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYBaseSection.m; sourceTree = "<group>"; };
+		9CF374281897E23E1CB94151BF638C18 /* QYTableViewModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QYTableViewModel-dummy.m"; sourceTree = "<group>"; };
 		9D5157C282951F0F94CE616276A25B54 /* Pods-QYTableViewModel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QYTableViewModel_Example.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DDE6A258503D30292211C600296355D /* QYBaseCellProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYBaseCellProtocol.h; sourceTree = "<group>"; };
+		A196ABBEABB85D0303A8231EB4620504 /* QYBaseTableInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYBaseTableInfo.m; sourceTree = "<group>"; };
+		A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		A998E9A70506785F106A12930BA9F363 /* tf_element_card_bg_top.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = tf_element_card_bg_top.png; path = QYTableViewModel/Assets/tf_element_card_bg_top.png; sourceTree = "<group>"; };
+		AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		B6C92B90D8DDE905510B492F5EC76C37 /* Pods-QYTableViewModel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QYTableViewModel_Example-dummy.m"; sourceTree = "<group>"; };
-		BC12E1A636E307E7F595C26DD6519C0C /* QYTableViewModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QYTableViewModel.debug.xcconfig; sourceTree = "<group>"; };
-		BEF3462A2E60FEFDC50E759673C97964 /* Pods_QYTableViewModel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QYTableViewModel_Tests.framework; path = "Pods-QYTableViewModel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB676D9D5D3AFD89D8DDCE3369D4BAC /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		BEF3462A2E60FEFDC50E759673C97964 /* Pods-QYTableViewModel_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QYTableViewModel_Tests"; path = Pods_QYTableViewModel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCDA9C57A03436C92056CBEDC1CE297 /* QYBaseRowConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYBaseRowConfig.h; sourceTree = "<group>"; };
+		C2D4FA3B4EC330C6A99DFBA1272DBCB5 /* tf_element_card_bg_bottom.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = tf_element_card_bg_bottom.png; path = QYTableViewModel/Assets/tf_element_card_bg_bottom.png; sourceTree = "<group>"; };
 		CD15A8126F513C79A03C69E2164F28AA /* Pods-QYTableViewModel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QYTableViewModel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		D507351814FA951C6AC7A6F626AB4BF7 /* Pods-QYTableViewModel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QYTableViewModel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D955D9BA372CBEBE6E1E3813995CA16A /* Pods-QYTableViewModel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QYTableViewModel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DA4F71CC4EC0D4C9125A3538A116F0C0 /* QYTableViewModelConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYTableViewModelConst.h; sourceTree = "<group>"; };
 		DCA5987EEAF897EB4D6FC4B2856907DE /* Pods-QYTableViewModel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QYTableViewModel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DFA1012B6A8BD076CD9F09831AE37A01 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
 		E20247D74BF0FA90867336480485A978 /* Pods-QYTableViewModel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QYTableViewModel_Example-umbrella.h"; sourceTree = "<group>"; };
+		E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		E9F5D7BFEC632CFBD0991CDA070C9057 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		EA6D1B9E9C12C3651F0DC43264C7E507 /* Pods-QYTableViewModel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QYTableViewModel_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EB40BFFC78A27E0E998A7F919E00705C /* QYTableViewModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QYTableViewModel-dummy.m"; sourceTree = "<group>"; };
-		F415D6C0C857F11202B6A830932C78F0 /* Pods_QYTableViewModel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QYTableViewModel_Example.framework; path = "Pods-QYTableViewModel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
+		F33DB85A9E4E8862D6DD94A20FB3D2E6 /* QYBaseRow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYBaseRow.h; sourceTree = "<group>"; };
+		F415D6C0C857F11202B6A830932C78F0 /* Pods-QYTableViewModel_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QYTableViewModel_Example"; path = Pods_QYTableViewModel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F441B6CC48F2405FAB3A232AC583BF08 /* Pods-QYTableViewModel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QYTableViewModel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FF7AD5AA7A32824417380854E24DB9CE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F5FF30AECAD3C54136AC11F5D48F6114 /* QYBaseTableInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYBaseTableInfo.h; sourceTree = "<group>"; };
+		F80FB66E7A932CDDF7097CBA10992B8B /* QYTableViewModel-QYTableViewModel */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "QYTableViewModel-QYTableViewModel"; path = QYTableViewModel.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		04175BCFA500E7BB9A4FA11D4AD1A2F3 /* Frameworks */ = {
+		4B8FFCFFED889C52F622632E83E37B81 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43516A2A5C1D878AFA375636CBEDA4E3 /* Foundation.framework in Frameworks */,
+				2BFEDA74D449B77E2CB2E48D7A6731A8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		657EAD38E414A2AA93B72921F23A9AFE /* Frameworks */ = {
+		532C48957CCCBA6C88583C22B638D7C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				183AD29B8117C4BCAC1969838B1A0841 /* Foundation.framework in Frameworks */,
+				942943C87BFA0DE5328108EB72A8B067 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D63F6F6C8382E7FFA233D39E40AE5FC9 /* Frameworks */ = {
+		57BB7EC4BA63DBB2318D03F8D16E3199 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2300BA665AA6CB02FD5DA8EA7ADCDA9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB6E60691DB58C9D2C0F26733F25C2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78251F42EB680FB72F040A1986279CD2 /* Foundation.framework in Frameworks */,
+				8171D105E2C5CD3C1357D544942B4446 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECED76A3130DBBA84E715E48B97FB72E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746F9C7C830E727CDA365A3A493C428E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CCC0CD98AB951949302B433AFE762AD /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */,
+				EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */,
+				02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */,
+				9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */,
+				837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */,
+				B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */,
+				470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */,
+				6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */,
+				6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */,
+				EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */,
+				607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */,
+				A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */,
+				A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */,
+				D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */,
+				72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */,
+				30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */,
+				8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */,
+				27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */,
+				E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */,
+				047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */,
+				AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */,
+				86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */,
+				55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */,
+				342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */,
+				C84A449C2DE4F91F0620A5147DD42E0F /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		389BC4F9073CAF7E149D855BE2279C3B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				46FCE96F841419DE0D1659B155FEAA50 /* QYClickEffectView.h */,
+				0C73EF417C8F18AA302C6DD972E9B18A /* QYClickEffectView.m */,
+				4DFE2260B030F61DC5E4AC1729D19F9C /* TableViewCell */,
+			);
+			name = View;
+			path = QYTableViewModel/Classes/View;
+			sourceTree = "<group>";
+		};
 		451D11602D427307EA8E9008C77F9CE2 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,25 +315,21 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		45E6AC25B768687D7B5D2CB78AD0963B /* Support Files */ = {
+		4DFE2260B030F61DC5E4AC1729D19F9C /* TableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				6671D4FD1C246B5F552E0447DE241D5C /* QYTableViewModel.modulemap */,
-				EB40BFFC78A27E0E998A7F919E00705C /* QYTableViewModel-dummy.m */,
-				49A6920F07CA97FA871966BB66E5310A /* QYTableViewModel-Info.plist */,
-				3686A90D376BCDF7A1D69D4A09AB5750 /* QYTableViewModel-prefix.pch */,
-				639F2B5FED530B73C7C52F00E72089AF /* QYTableViewModel-umbrella.h */,
-				BC12E1A636E307E7F595C26DD6519C0C /* QYTableViewModel.debug.xcconfig */,
-				84F4B4BC0D820BC2221442B6DC3FAB29 /* QYTableViewModel.release.xcconfig */,
+				984D253D1E56EEDF693D970B7F2E3961 /* QYBaseTableViewCell.h */,
+				1ED4E7FF288E4770F04FC8C06B118C06 /* QYBaseTableViewCell.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/QYTableViewModel";
+			name = TableViewCell;
+			path = TableViewCell;
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -149,14 +351,34 @@
 			path = "Target Support Files/Pods-QYTableViewModel_Example";
 			sourceTree = "<group>";
 		};
-		7149309A9C66AFB7F4653A440EE2D6C9 /* Products */ = {
+		6CD52A7E9EA0C2F8BDE5C84C7266574E /* Header */ = {
 			isa = PBXGroup;
 			children = (
-				F415D6C0C857F11202B6A830932C78F0 /* Pods_QYTableViewModel_Example.framework */,
-				BEF3462A2E60FEFDC50E759673C97964 /* Pods_QYTableViewModel_Tests.framework */,
-				8AAE98F66A9763BCFA093DA94CAF1FA3 /* QYTableViewModel.framework */,
+				86EEF99F1DA663B73812D636331B6DBF /* QYTableViewModel.h */,
+				DA4F71CC4EC0D4C9125A3538A116F0C0 /* QYTableViewModelConst.h */,
 			);
-			name = Products;
+			name = Header;
+			path = QYTableViewModel/Classes/Header;
+			sourceTree = "<group>";
+		};
+		6DB28B997BAD7AB519D54D8235C4B879 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				4631513DEE451BC576EC189464D07095 /* QYBaseCardUIConfigProtocol.h */,
+				9DDE6A258503D30292211C600296355D /* QYBaseCellProtocol.h */,
+				3B98C889DA9034FCAE19F14D6DF29201 /* QYBaseRowProtocol.h */,
+				93F9C27B3445C93B4506DE37469449A6 /* QYBaseUIConfigProtocol.h */,
+			);
+			name = Protocol;
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CCC0CD98AB951949302B433AFE762AD /* Masonry */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		7D4506B592CF6B93D50DD13F24190E05 /* Pods-QYTableViewModel_Tests */ = {
@@ -175,78 +397,205 @@
 			path = "Target Support Files/Pods-QYTableViewModel_Tests";
 			sourceTree = "<group>";
 		};
-		AD24C240FF5E05388B08BAEBA29D4C4C /* Development Pods */ = {
+		86BC48A22EAD1B529BAC0E91E19AAB41 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F961BF4434DC2F23F5E2100257A12257 /* QYTableViewModel */,
+				0C75593677163F30AE76958DDE837098 /* QYTableViewModel.modulemap */,
+				9CF374281897E23E1CB94151BF638C18 /* QYTableViewModel-dummy.m */,
+				15FFDB0974ABBFA6D8049640E8071717 /* QYTableViewModel-Info.plist */,
+				072949DCB78DF0D06C957D3833A8E95F /* QYTableViewModel-prefix.pch */,
+				3AB1355D627967D4C93C388C1737A587 /* QYTableViewModel-umbrella.h */,
+				3E36D435BACEB1A4846EE803F1DBA265 /* QYTableViewModel.debug.xcconfig */,
+				5C95AE1A9BBB712D9E57948040BF8BBA /* QYTableViewModel.release.xcconfig */,
+				78281F83B0C06870C099ACDF293C3142 /* ResourceBundle-QYTableViewModel-QYTableViewModel-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QYTableViewModel";
+			sourceTree = "<group>";
+		};
+		A3C514A456B7943C8F9BC6D248806EAC /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				F33DB85A9E4E8862D6DD94A20FB3D2E6 /* QYBaseRow.h */,
+				9A1367DED2D1C130A92320EF87237431 /* QYBaseRow.m */,
+				BFCDA9C57A03436C92056CBEDC1CE297 /* QYBaseRowConfig.h */,
+				1204EFF5439E2357E1ADFF2D7F500105 /* QYBaseRowConfig.m */,
+				6555218860A91076C69589A1BB2297C9 /* QYBaseSection.h */,
+				9AB5C3140270858714F7E39C657330BB /* QYBaseSection.m */,
+				F5FF30AECAD3C54136AC11F5D48F6114 /* QYBaseTableInfo.h */,
+				A196ABBEABB85D0303A8231EB4620504 /* QYBaseTableInfo.m */,
+			);
+			name = TableView;
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		A4B23AFCBC406D38F9C941E0E2194C41 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				1CB6A9914EB4C01D16E624059EDD5223 /* QYTableViewDelegate.h */,
+				203CAF96CAC1CEB96A13CA482521AA66 /* QYTableViewDelegate.m */,
+			);
+			name = Delegate;
+			path = QYTableViewModel/Classes/Delegate;
+			sourceTree = "<group>";
+		};
+		AC053DACF03E417C8AC7CE4D209D9BBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FFED36A657123030ABB700256D73F15 /* Masonry */,
+				F415D6C0C857F11202B6A830932C78F0 /* Pods-QYTableViewModel_Example */,
+				BEF3462A2E60FEFDC50E759673C97964 /* Pods-QYTableViewModel_Tests */,
+				8AAE98F66A9763BCFA093DA94CAF1FA3 /* QYTableViewModel */,
+				F80FB66E7A932CDDF7097CBA10992B8B /* QYTableViewModel-QYTableViewModel */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD26D7698AF8BF26C85A6738C99E3E9F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1CB5D794D410418F1494C5F3C1597F9 /* QYTableViewModel */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B1CB5D794D410418F1494C5F3C1597F9 /* QYTableViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				972B388A733E41278EC956AAE4E95009 /* tf_element_card_bg_all.png */,
+				C2D4FA3B4EC330C6A99DFBA1272DBCB5 /* tf_element_card_bg_bottom.png */,
+				2475C12816398F2FE5B3ED5BF1C5A9E4 /* tf_element_card_bg_middle.png */,
+				A998E9A70506785F106A12930BA9F363 /* tf_element_card_bg_top.png */,
+				B9A030B1B08083D3C89E554BE47F05BC /* Category */,
+				A4B23AFCBC406D38F9C941E0E2194C41 /* Delegate */,
+				6CD52A7E9EA0C2F8BDE5C84C7266574E /* Header */,
+				DD86F8649C1C1512F23AA55C3D013C55 /* Model */,
+				F2AFE9F692258002C17C2206597EC8E0 /* Pod */,
+				86BC48A22EAD1B529BAC0E91E19AAB41 /* Support Files */,
+				389BC4F9073CAF7E149D855BE2279C3B /* View */,
+			);
+			name = QYTableViewModel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B9A030B1B08083D3C89E554BE47F05BC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4F6DD212B1CD20B9E3D71F66AB42A4B4 /* UIImage+QYBundle.h */,
+				3B36E64971CD170AD71E6F759B2F9F19 /* UIImage+QYBundle.m */,
+			);
+			name = Category;
+			path = QYTableViewModel/Classes/Category;
+			sourceTree = "<group>";
+		};
+		C84A449C2DE4F91F0620A5147DD42E0F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E537C1F47DA8B06DA4A71E3D14F4DE4 /* Masonry.modulemap */,
+				A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */,
+				DFA1012B6A8BD076CD9F09831AE37A01 /* Masonry-Info.plist */,
+				BDB676D9D5D3AFD89D8DDCE3369D4BAC /* Masonry-prefix.pch */,
+				6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */,
+				F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */,
+				419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				AD24C240FF5E05388B08BAEBA29D4C4C /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				7149309A9C66AFB7F4653A440EE2D6C9 /* Products */,
+				AD26D7698AF8BF26C85A6738C99E3E9F /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
+				AC053DACF03E417C8AC7CE4D209D9BBA /* Products */,
 				451D11602D427307EA8E9008C77F9CE2 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		DD86F8649C1C1512F23AA55C3D013C55 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				6DB28B997BAD7AB519D54D8235C4B879 /* Protocol */,
+				A3C514A456B7943C8F9BC6D248806EAC /* TableView */,
 			);
-			name = Frameworks;
+			name = Model;
+			path = QYTableViewModel/Classes/Model;
 			sourceTree = "<group>";
 		};
-		F285E07AE894705A4E48BD9B546A1FDD /* Pod */ = {
+		F2AFE9F692258002C17C2206597EC8E0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1436708A918693DF3FC08F5945A4C0B9 /* LICENSE */,
-				61FD5D444EDEC565A9F4B8C824853DE2 /* QYTableViewModel.podspec */,
-				FF7AD5AA7A32824417380854E24DB9CE /* README.md */,
+				13AE5AD2E17A3F42297C683E4B370E5C /* LICENSE */,
+				22CCB37FFC4A52332EBB07D86B52F436 /* QYTableViewModel.podspec */,
+				E9F5D7BFEC632CFBD0991CDA070C9057 /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		F961BF4434DC2F23F5E2100257A12257 /* QYTableViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				9C138F3974F6259F693E10218DB9BA14 /* ReplaceMe.m */,
-				F285E07AE894705A4E48BD9B546A1FDD /* Pod */,
-				45E6AC25B768687D7B5D2CB78AD0963B /* Support Files */,
-			);
-			name = QYTableViewModel;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		26841270B0606743AAC63EC472331185 /* Headers */ = {
+		4F6447B94732F90A3F5D97BC8D7DE6BE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6F9DC9100B465CE82CE22F54C88C673 /* Pods-QYTableViewModel_Tests-umbrella.h in Headers */,
+				51E148BCC802A6894250CB4C165B88F2 /* Pods-QYTableViewModel_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABEB83B278B0AC69E6E2B149D50BB666 /* Headers */ = {
+		587ECFF557E615687FAC92EF410FB425 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22862BA36B2BFAB671D70905AC188352 /* QYTableViewModel-umbrella.h in Headers */,
+				E5BE22067E466A7CA372423FBE588C05 /* QYBaseCardUIConfigProtocol.h in Headers */,
+				54639B218543B84B15283A12F3B9FA72 /* QYBaseCellProtocol.h in Headers */,
+				D0798EA5CF962A2403937103D767CE20 /* QYBaseRow.h in Headers */,
+				E8594270E14FAA7F7915CD10EE2A36CE /* QYBaseRowConfig.h in Headers */,
+				B6F96F9A1834B935BC6C48E121F36748 /* QYBaseRowProtocol.h in Headers */,
+				6087090144ED9326B89E74955655EDCE /* QYBaseSection.h in Headers */,
+				CA3D2BEE4C7829DA76F7ACE88836993F /* QYBaseTableInfo.h in Headers */,
+				2A29B5204D75605B6AD5ED2E3A75BF2C /* QYBaseTableViewCell.h in Headers */,
+				BA4F9275E9DC1B3D2480032134351101 /* QYBaseUIConfigProtocol.h in Headers */,
+				14945982C16EABE739863F7476EC34FA /* QYClickEffectView.h in Headers */,
+				BF98595B766FDCEDD2683DEB0C782090 /* QYTableViewDelegate.h in Headers */,
+				A11E8EC2226697EB6CD6067F99F7083A /* QYTableViewModel.h in Headers */,
+				FEA7D09A110673220C2BE56F2DB08270 /* QYTableViewModel-umbrella.h in Headers */,
+				EB58021B743356627000913C3C521182 /* QYTableViewModelConst.h in Headers */,
+				E67AC1B5396BE485CD065368C8C63456 /* UIImage+QYBundle.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D035A6980F8B4ED6CD9BD81B50B73114 /* Headers */ = {
+		99A8659D86DFD4C224D177332D003EDC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D330BAB9CD37A439F651DE40C071220 /* Pods-QYTableViewModel_Example-umbrella.h in Headers */,
+				B4BE7728D87333785F811FED48CF134E /* MASCompositeConstraint.h in Headers */,
+				BEA99A49E5F8DA685E33DABA606041FF /* MASConstraint.h in Headers */,
+				A83A6757F6C0003332D57B41FE24BEEA /* MASConstraint+Private.h in Headers */,
+				1B433A1BF92BBD5811F61A000E4771C2 /* MASConstraintMaker.h in Headers */,
+				2839E3707C14798138E8A0C72ACE4C25 /* MASLayoutConstraint.h in Headers */,
+				31F7C35C8863FA25A741A884E21BE7D0 /* Masonry.h in Headers */,
+				B61AA5459C2B345AD6D84D8A5111C9CE /* Masonry-umbrella.h in Headers */,
+				0E8CCAE597756C61B2D7B60EEF4A29E4 /* MASUtilities.h in Headers */,
+				715AB2C777F6FCAB5EE0C667A909B698 /* MASViewAttribute.h in Headers */,
+				CEE7BDCC3F3073CBBF7A76BC6CF3E519 /* MASViewConstraint.h in Headers */,
+				8AE868BC3E2E6FC92F4717835180C47D /* NSArray+MASAdditions.h in Headers */,
+				E53FCD0CD1526B53074ED4EEF00131E9 /* NSArray+MASShorthandAdditions.h in Headers */,
+				BE050DABC9BF806B3379AFD2367F4194 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				3D0EFFE30E3193932A034220E3C4C0FA /* View+MASAdditions.h in Headers */,
+				61225B0B9AEC591476E30C9A575013B3 /* View+MASShorthandAdditions.h in Headers */,
+				B10646B6AF73D470221EF25A5DEEEB6F /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5451CD4273D206C7EF56BE300AFD46 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4838ADF3D2CD6AA3A2387CC95AAB123F /* Pods-QYTableViewModel_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,58 +604,96 @@
 /* Begin PBXNativeTarget section */
 		4E9397BD89A9AF9939CB347D9777D213 /* Pods-QYTableViewModel_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52D4A0832D223B44892DA14BABE22205 /* Build configuration list for PBXNativeTarget "Pods-QYTableViewModel_Example" */;
+			buildConfigurationList = 70C3A3CFCDF7A09C791731557F71D7C7 /* Build configuration list for PBXNativeTarget "Pods-QYTableViewModel_Example" */;
 			buildPhases = (
-				D035A6980F8B4ED6CD9BD81B50B73114 /* Headers */,
-				0E976B5F23AC29C25335A65977C9D56D /* Sources */,
-				D63F6F6C8382E7FFA233D39E40AE5FC9 /* Frameworks */,
-				0B556E059021B11A7F51F08D87DDF171 /* Resources */,
+				AE5451CD4273D206C7EF56BE300AFD46 /* Headers */,
+				2FBB23D7D5F4044DBBFAF7FF953D85DD /* Sources */,
+				532C48957CCCBA6C88583C22B638D7C9 /* Frameworks */,
+				3167FDC787C420F9FEB62B64B018ECC3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3B1BE042126337A9E4BE1D60A024DC67 /* PBXTargetDependency */,
+				A7C1EBD6FE5DAAA565C5F4F26A468F8F /* PBXTargetDependency */,
+				7F16E3FE2456B84E1BA1EEAE719CF043 /* PBXTargetDependency */,
 			);
 			name = "Pods-QYTableViewModel_Example";
-			productName = "Pods-QYTableViewModel_Example";
-			productReference = F415D6C0C857F11202B6A830932C78F0 /* Pods_QYTableViewModel_Example.framework */;
+			productName = Pods_QYTableViewModel_Example;
+			productReference = F415D6C0C857F11202B6A830932C78F0 /* Pods-QYTableViewModel_Example */;
 			productType = "com.apple.product-type.framework";
+		};
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 104EC9250BF4EDE104280490293C13C3 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				99A8659D86DFD4C224D177332D003EDC /* Headers */,
+				3003736003A11F9793D9EA6DC169AED7 /* Sources */,
+				CCB6E60691DB58C9D2C0F26733F25C2E /* Frameworks */,
+				4522D50300D635138BEDBF5E60D39B53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry */;
+			productType = "com.apple.product-type.framework";
+		};
+		6D41CCFD2767A00C550D5F5F51B8A6E6 /* QYTableViewModel-QYTableViewModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EECC07F3656E6F38482D03AF2DB05E86 /* Build configuration list for PBXNativeTarget "QYTableViewModel-QYTableViewModel" */;
+			buildPhases = (
+				A4546C17E410921399549A0699A2DE4B /* Sources */,
+				57BB7EC4BA63DBB2318D03F8D16E3199 /* Frameworks */,
+				53747E22FDF12798F61E3D7BC4D5DF6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QYTableViewModel-QYTableViewModel";
+			productName = QYTableViewModel;
+			productReference = F80FB66E7A932CDDF7097CBA10992B8B /* QYTableViewModel-QYTableViewModel */;
+			productType = "com.apple.product-type.bundle";
 		};
 		92D3C34662A7C753A056984C99D6668C /* Pods-QYTableViewModel_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0AA1EF853ACF21146412E4508596B567 /* Build configuration list for PBXNativeTarget "Pods-QYTableViewModel_Tests" */;
+			buildConfigurationList = 8CD0A2B064A428899A82C1AC916A3247 /* Build configuration list for PBXNativeTarget "Pods-QYTableViewModel_Tests" */;
 			buildPhases = (
-				26841270B0606743AAC63EC472331185 /* Headers */,
-				9CC137BB4768988DF9DEE2A087545DA7 /* Sources */,
-				04175BCFA500E7BB9A4FA11D4AD1A2F3 /* Frameworks */,
-				FBC0F5AA22DC003385F2149D86959B98 /* Resources */,
+				4F6447B94732F90A3F5D97BC8D7DE6BE /* Headers */,
+				C850F033786644BDF3B1C2969C005080 /* Sources */,
+				ECED76A3130DBBA84E715E48B97FB72E /* Frameworks */,
+				0423916183D4A50A868A67C9BA4788EE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				24994C755E34569680A31CFE640C6A4B /* PBXTargetDependency */,
+				E22C346FC1B782C10513446376651528 /* PBXTargetDependency */,
 			);
 			name = "Pods-QYTableViewModel_Tests";
-			productName = "Pods-QYTableViewModel_Tests";
-			productReference = BEF3462A2E60FEFDC50E759673C97964 /* Pods_QYTableViewModel_Tests.framework */;
+			productName = Pods_QYTableViewModel_Tests;
+			productReference = BEF3462A2E60FEFDC50E759673C97964 /* Pods-QYTableViewModel_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		DC12512F829C2024B0BBE2F823C15A76 /* QYTableViewModel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA2B12F40BA7A15BA6619821835B2AF2 /* Build configuration list for PBXNativeTarget "QYTableViewModel" */;
+			buildConfigurationList = 3A5BC8CE1488BCC50CE7D0A6629DAB94 /* Build configuration list for PBXNativeTarget "QYTableViewModel" */;
 			buildPhases = (
-				ABEB83B278B0AC69E6E2B149D50BB666 /* Headers */,
-				331D853097408BD16AF625AE59AABAC3 /* Sources */,
-				657EAD38E414A2AA93B72921F23A9AFE /* Frameworks */,
-				9F0C2E9717CD0E8A9D3CF463F147C8B7 /* Resources */,
+				587ECFF557E615687FAC92EF410FB425 /* Headers */,
+				EA8877EAC0781EE17D6CCF94F7FDCBDB /* Sources */,
+				4B8FFCFFED889C52F622632E83E37B81 /* Frameworks */,
+				250042F778CC8BF5824A0FCF8578502E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8B153B6FBF418D15878AA5DEB57F5EEE /* PBXTargetDependency */,
+				5843A7FED0FAC2C40ABCBD9EEBED8F0C /* PBXTargetDependency */,
 			);
 			name = QYTableViewModel;
 			productName = QYTableViewModel;
-			productReference = 8AAE98F66A9763BCFA093DA94CAF1FA3 /* QYTableViewModel.framework */;
+			productReference = 8AAE98F66A9763BCFA093DA94CAF1FA3 /* QYTableViewModel */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -315,100 +702,171 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 7149309A9C66AFB7F4653A440EE2D6C9 /* Products */;
+			productRefGroup = AC053DACF03E417C8AC7CE4D209D9BBA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
 				4E9397BD89A9AF9939CB347D9777D213 /* Pods-QYTableViewModel_Example */,
 				92D3C34662A7C753A056984C99D6668C /* Pods-QYTableViewModel_Tests */,
 				DC12512F829C2024B0BBE2F823C15A76 /* QYTableViewModel */,
+				6D41CCFD2767A00C550D5F5F51B8A6E6 /* QYTableViewModel-QYTableViewModel */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0B556E059021B11A7F51F08D87DDF171 /* Resources */ = {
+		0423916183D4A50A868A67C9BA4788EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F0C2E9717CD0E8A9D3CF463F147C8B7 /* Resources */ = {
+		250042F778CC8BF5824A0FCF8578502E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F14A83186A9278959854C010E9EEC90 /* QYTableViewModel-QYTableViewModel in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3167FDC787C420F9FEB62B64B018ECC3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBC0F5AA22DC003385F2149D86959B98 /* Resources */ = {
+		4522D50300D635138BEDBF5E60D39B53 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53747E22FDF12798F61E3D7BC4D5DF6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1265BA870FFD6862690518E1FCD3E90 /* tf_element_card_bg_all.png in Resources */,
+				78E05BF81C471DA400B995FFD165BE83 /* tf_element_card_bg_bottom.png in Resources */,
+				12DE9BEEC4C6AD451D9659F063610A85 /* tf_element_card_bg_middle.png in Resources */,
+				39543B29B33B72C130DC8BF0881D2C30 /* tf_element_card_bg_top.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0E976B5F23AC29C25335A65977C9D56D /* Sources */ = {
+		2FBB23D7D5F4044DBBFAF7FF953D85DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CE7CE1C0F53876AD3865D237B3DA240 /* Pods-QYTableViewModel_Example-dummy.m in Sources */,
+				2D2190F617DE2B68C284855CCF686FFD /* Pods-QYTableViewModel_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		331D853097408BD16AF625AE59AABAC3 /* Sources */ = {
+		3003736003A11F9793D9EA6DC169AED7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A957A4446611DB793E706CDDD7DDBFC6 /* QYTableViewModel-dummy.m in Sources */,
-				0E22D605FA28DCB92D10BF7C9C68F5B7 /* ReplaceMe.m in Sources */,
+				19300CF68F5718C6F9C3476F1A98C1DC /* MASCompositeConstraint.m in Sources */,
+				7B05A8DE072977F90AA84A0E98E23167 /* MASConstraint.m in Sources */,
+				4CC9B43AD90714A316815FAA71DC89A2 /* MASConstraintMaker.m in Sources */,
+				54BEFE9F75005D327641073B838C6776 /* MASLayoutConstraint.m in Sources */,
+				CECDB459AFB5AD0040AF86378F2DBF97 /* Masonry-dummy.m in Sources */,
+				53305278F1654F968B4E02DF71B098BE /* MASViewAttribute.m in Sources */,
+				E6FB269534400D40C1CE67D18EDD8A9A /* MASViewConstraint.m in Sources */,
+				C9375F078B54A9030D4B9C2E73222A5D /* NSArray+MASAdditions.m in Sources */,
+				C7D83D99D755676EF8A09CC77845BAF4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				A1336977ADAAD492D6CFD089A8C6E358 /* View+MASAdditions.m in Sources */,
+				567ABE0681AA82748435E32386DE12D7 /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9CC137BB4768988DF9DEE2A087545DA7 /* Sources */ = {
+		A4546C17E410921399549A0699A2DE4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73B410A99D13C017A1FFC9B999A7AFBE /* Pods-QYTableViewModel_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C850F033786644BDF3B1C2969C005080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC51325ECBF4582AFF54852F818F5A78 /* Pods-QYTableViewModel_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8877EAC0781EE17D6CCF94F7FDCBDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52080FB8C41B1B50D0833E03B42FC3B2 /* QYBaseRow.m in Sources */,
+				3C08C1057EEBED722D5684447A711FA0 /* QYBaseRowConfig.m in Sources */,
+				76893FEECBE5C42BA61E5F028D67638C /* QYBaseSection.m in Sources */,
+				2FEF9B1F203C8999654005F05A900558 /* QYBaseTableInfo.m in Sources */,
+				F3A3B44A36AE5881648175BF6BB5A927 /* QYBaseTableViewCell.m in Sources */,
+				9AAA9B63C9ECAC512600FE2CE10B1454 /* QYClickEffectView.m in Sources */,
+				79680DE9109B08CBB079FF5B343CB5CA /* QYTableViewDelegate.m in Sources */,
+				70530F94BAE3B16672E47E26F4F21D91 /* QYTableViewModel-dummy.m in Sources */,
+				9CF183109DE5155A64A770010B32466A /* UIImage+QYBundle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		24994C755E34569680A31CFE640C6A4B /* PBXTargetDependency */ = {
+		5843A7FED0FAC2C40ABCBD9EEBED8F0C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-QYTableViewModel_Example";
-			target = 4E9397BD89A9AF9939CB347D9777D213 /* Pods-QYTableViewModel_Example */;
-			targetProxy = FBD317E59789398B80E450AE622D0AF0 /* PBXContainerItemProxy */;
+			name = "QYTableViewModel-QYTableViewModel";
+			target = 6D41CCFD2767A00C550D5F5F51B8A6E6 /* QYTableViewModel-QYTableViewModel */;
+			targetProxy = DC2C16C46EB7AD872957BE0FE9265662 /* PBXContainerItemProxy */;
 		};
-		3B1BE042126337A9E4BE1D60A024DC67 /* PBXTargetDependency */ = {
+		7F16E3FE2456B84E1BA1EEAE719CF043 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = QYTableViewModel;
 			target = DC12512F829C2024B0BBE2F823C15A76 /* QYTableViewModel */;
-			targetProxy = 747B8AC016CDE624C4888962C3E04E9A /* PBXContainerItemProxy */;
+			targetProxy = 37D8A07F78D2C154B61B5B748D29E910 /* PBXContainerItemProxy */;
+		};
+		8B153B6FBF418D15878AA5DEB57F5EEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = FCD7C3D2503C0A2F0D06F54DC3C95C50 /* PBXContainerItemProxy */;
+		};
+		A7C1EBD6FE5DAAA565C5F4F26A468F8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 7347CB8C5EF9D998EC7BD2F9E3B04951 /* PBXContainerItemProxy */;
+		};
+		E22C346FC1B782C10513446376651528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QYTableViewModel_Example";
+			target = 4E9397BD89A9AF9939CB347D9777D213 /* Pods-QYTableViewModel_Example */;
+			targetProxy = DE32124B042118C28DC2402DE1ABE02D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0F0E1C75140374A1390382DC1FD40518 /* Release */ = {
+		233055994628EC79236FC9EECA288FD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D955D9BA372CBEBE6E1E3813995CA16A /* Pods-QYTableViewModel_Example.release.xcconfig */;
+			baseConfigurationReference = EA6D1B9E9C12C3651F0DC43264C7E507 /* Pods-QYTableViewModel_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -434,15 +892,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		64617DCE24D60A1A2B3D9C129510A0A9 /* Release */ = {
+		4067C2DEB00BCC1D6EF8AF6DE0F52D5B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84F4B4BC0D820BC2221442B6DC3FAB29 /* QYTableViewModel.release.xcconfig */;
+			baseConfigurationReference = 3E36D435BACEB1A4846EE803F1DBA265 /* QYTableViewModel.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -465,6 +922,135 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BAA6387849FC3302E7BBDB7FD5B6546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD15A8126F513C79A03C69E2164F28AA /* Pods-QYTableViewModel_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QYTableViewModel_Tests/Pods-QYTableViewModel_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QYTableViewModel_Tests/Pods-QYTableViewModel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A2DB9ECD1FA625AD48B931D436CF082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6FFC62C0D9C348F3F06669F517628784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C95AE1A9BBB712D9E57948040BF8BBA /* QYTableViewModel.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QYTableViewModel";
+				IBSC_MODULE = QYTableViewModel;
+				INFOPLIST_FILE = "Target Support Files/QYTableViewModel/ResourceBundle-QYTableViewModel-QYTableViewModel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = QYTableViewModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		70C6DCF06481B09967A5CF8112EFC9BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E36D435BACEB1A4846EE803F1DBA265 /* QYTableViewModel.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QYTableViewModel";
+				IBSC_MODULE = QYTableViewModel;
+				INFOPLIST_FILE = "Target Support Files/QYTableViewModel/ResourceBundle-QYTableViewModel-QYTableViewModel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = QYTableViewModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		728343AE5A6DFE7CEB63303AE8DB0622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86697235D44D87E207F606A189501921 /* Pods-QYTableViewModel_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QYTableViewModel_Tests/Pods-QYTableViewModel_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QYTableViewModel_Tests/Pods-QYTableViewModel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -534,9 +1120,41 @@
 			};
 			name = Release;
 		};
-		8C7A5E7DF678186B9D54F78DA1B70535 /* Debug */ = {
+		A23AEC3C30B985504BDAC2E860E24237 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD15A8126F513C79A03C69E2164F28AA /* Pods-QYTableViewModel_Tests.debug.xcconfig */;
+			baseConfigurationReference = 5C95AE1A9BBB712D9E57948040BF8BBA /* QYTableViewModel.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QYTableViewModel/QYTableViewModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QYTableViewModel/QYTableViewModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QYTableViewModel/QYTableViewModel.modulemap";
+				PRODUCT_MODULE_NAME = QYTableViewModel;
+				PRODUCT_NAME = QYTableViewModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B6F9CFC07416912AE202975665D53E0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D955D9BA372CBEBE6E1E3813995CA16A /* Pods-QYTableViewModel_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -548,12 +1166,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QYTableViewModel_Tests/Pods-QYTableViewModel_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-QYTableViewModel_Example/Pods-QYTableViewModel_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QYTableViewModel_Tests/Pods-QYTableViewModel_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-QYTableViewModel_Example/Pods-QYTableViewModel_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -561,6 +1179,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C437DB9E31D4D0C9067317F7DDA15949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F287598D192FA586BD4AECCD85B988A4 /* Masonry.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -633,112 +1282,23 @@
 			};
 			name = Debug;
 		};
-		E083BE726917F4C279DA13BEB9FA09C2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC12E1A636E307E7F595C26DD6519C0C /* QYTableViewModel.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QYTableViewModel/QYTableViewModel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QYTableViewModel/QYTableViewModel-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QYTableViewModel/QYTableViewModel.modulemap";
-				PRODUCT_MODULE_NAME = QYTableViewModel;
-				PRODUCT_NAME = QYTableViewModel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E8DD5BABF5558D828778A8B0A3CBA263 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86697235D44D87E207F606A189501921 /* Pods-QYTableViewModel_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QYTableViewModel_Tests/Pods-QYTableViewModel_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QYTableViewModel_Tests/Pods-QYTableViewModel_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FD7360D38B0A3D991D7B87EFBFFB1F92 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA6D1B9E9C12C3651F0DC43264C7E507 /* Pods-QYTableViewModel_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QYTableViewModel_Example/Pods-QYTableViewModel_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QYTableViewModel_Example/Pods-QYTableViewModel_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0AA1EF853ACF21146412E4508596B567 /* Build configuration list for PBXNativeTarget "Pods-QYTableViewModel_Tests" */ = {
+		104EC9250BF4EDE104280490293C13C3 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C7A5E7DF678186B9D54F78DA1B70535 /* Debug */,
-				E8DD5BABF5558D828778A8B0A3CBA263 /* Release */,
+				C437DB9E31D4D0C9067317F7DDA15949 /* Debug */,
+				6A2DB9ECD1FA625AD48B931D436CF082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A5BC8CE1488BCC50CE7D0A6629DAB94 /* Build configuration list for PBXNativeTarget "QYTableViewModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4067C2DEB00BCC1D6EF8AF6DE0F52D5B /* Debug */,
+				A23AEC3C30B985504BDAC2E860E24237 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -752,20 +1312,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52D4A0832D223B44892DA14BABE22205 /* Build configuration list for PBXNativeTarget "Pods-QYTableViewModel_Example" */ = {
+		70C3A3CFCDF7A09C791731557F71D7C7 /* Build configuration list for PBXNativeTarget "Pods-QYTableViewModel_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD7360D38B0A3D991D7B87EFBFFB1F92 /* Debug */,
-				0F0E1C75140374A1390382DC1FD40518 /* Release */,
+				233055994628EC79236FC9EECA288FD2 /* Debug */,
+				B6F9CFC07416912AE202975665D53E0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA2B12F40BA7A15BA6619821835B2AF2 /* Build configuration list for PBXNativeTarget "QYTableViewModel" */ = {
+		8CD0A2B064A428899A82C1AC916A3247 /* Build configuration list for PBXNativeTarget "Pods-QYTableViewModel_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E083BE726917F4C279DA13BEB9FA09C2 /* Debug */,
-				64617DCE24D60A1A2B3D9C129510A0A9 /* Release */,
+				4BAA6387849FC3302E7BBDB7FD5B6546 /* Debug */,
+				728343AE5A6DFE7CEB63303AE8DB0622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EECC07F3656E6F38482D03AF2DB05E86 /* Build configuration list for PBXNativeTarget "QYTableViewModel-QYTableViewModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70C6DCF06481B09967A5CF8112EFC9BF /* Debug */,
+				6FFC62C0D9C348F3F06669F517628784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

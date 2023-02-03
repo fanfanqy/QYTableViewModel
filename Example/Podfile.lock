@@ -1,16 +1,23 @@
 PODS:
-  - QYTableViewModel (0.1.0)
+  - Masonry (1.1.0)
+  - QYTableViewModel (0.1.0):
+    - Masonry
 
 DEPENDENCIES:
   - QYTableViewModel (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
 
 EXTERNAL SOURCES:
   QYTableViewModel:
     :path: "../"
 
 SPEC CHECKSUMS:
-  QYTableViewModel: 62a5a339e10cca03b81865fbbc37bd2919e89068
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  QYTableViewModel: 7531fffc63d1453ed9589d5778b9c70ab44d4e34
 
 PODFILE CHECKSUM: f69623c987bdbdbe13c757d2e932735856e64d00
 
-COCOAPODS: 1.10.2
+COCOAPODS: 1.11.3
