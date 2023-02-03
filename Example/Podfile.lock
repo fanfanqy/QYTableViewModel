@@ -1,0 +1,16 @@
+PODS:
+  - QYTableViewModel (0.1.0)
+
+DEPENDENCIES:
+  - QYTableViewModel (from `../`)
+
+EXTERNAL SOURCES:
+  QYTableViewModel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QYTableViewModel: 62a5a339e10cca03b81865fbbc37bd2919e89068
+
+PODFILE CHECKSUM: f69623c987bdbdbe13c757d2e932735856e64d00
+
+COCOAPODS: 1.10.2

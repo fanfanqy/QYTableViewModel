@@ -1,0 +1,22 @@
+{
+  "name": "QYTableViewModel",
+  "version": "0.1.0",
+  "summary": "A short description of QYTableViewModel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/范庆宇_24961/QYTableViewModel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "范庆宇_24961": "24961@etransfar.com"
+  },
+  "source": {
+    "git": "https://github.com/范庆宇_24961/QYTableViewModel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "QYTableViewModel/Classes/**/*"
+}
