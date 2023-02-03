@@ -1,9 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/fanfanqy/SelfGithubSpec.git'
+
 use_frameworks!
 
 platform :ios, '10.0'
 
 target 'QYTableViewModel_Example' do
-  pod 'QYTableViewModel', :path => '../'
+#  pod 'QYTableViewModel', :path => '../'
+  pod 'QYTableViewModel','0.1.0'
 
   target 'QYTableViewModel_Tests' do
     inherit! :search_paths

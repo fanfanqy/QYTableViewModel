@@ -7,6 +7,7 @@
 //
 
 #import "QYViewController.h"
+#import <QYTableViewModel/QYTableViewModel.h>
 
 @interface QYViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    QYBaseRow *row = [QYBaseRow createRowWithModel:@"1" cellClass:[UITableViewCell class] height:10];
+    
 }
 
 - (void)didReceiveMemoryWarning

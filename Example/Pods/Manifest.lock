@@ -4,20 +4,18 @@ PODS:
     - Masonry
 
 DEPENDENCIES:
-  - QYTableViewModel (from `../`)
+  - QYTableViewModel (= 0.1.0)
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - Masonry
-
-EXTERNAL SOURCES:
-  QYTableViewModel:
-    :path: "../"
+  https://github.com/fanfanqy/SelfGithubSpec.git:
+    - QYTableViewModel
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  QYTableViewModel: 7531fffc63d1453ed9589d5778b9c70ab44d4e34
+  QYTableViewModel: f7d77505fe23efbabbd51e3f0045161e52403b93
 
-PODFILE CHECKSUM: f69623c987bdbdbe13c757d2e932735856e64d00
+PODFILE CHECKSUM: c1fa87a676e14ab72f7d81f66b36bb403181b9cd
 
 COCOAPODS: 1.11.3
