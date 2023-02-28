@@ -6,8 +6,8 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'QYTableViewModel_Example' do
-#  pod 'QYTableViewModel', :path => '../'
-  pod 'QYTableViewModel','0.1.0'
+  pod 'QYTableViewModel', :path => '../'
+  
 
   target 'QYTableViewModel_Tests' do
     inherit! :search_paths

@@ -85,7 +85,7 @@
     
 }
 
-- (CGFloat)tableView:(UITableView *)tableView heighQYorRowAtIndexPath:(NSIndexPath *)indexPath {
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
     id<QYBaseRowProtocol> row = [self getRow:indexPath];
     return row.config.height;
     
@@ -101,13 +101,13 @@
     
 }
 
-- (CGFloat)tableView:(UITableView *)tableView heighQYorHeaderInSection:(NSInteger)section {
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
     QYBaseSection *sectionModel = [self getSection:section];
     return sectionModel.headerHeight;
     
 }
 
-- (CGFloat)tableView:(UITableView *)tableView heighQYorFooterInSection:(NSInteger)section {
+- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
     QYBaseSection *sectionModel = [self getSection:section];
     return sectionModel.footerHeight;
     

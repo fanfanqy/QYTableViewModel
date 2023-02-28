@@ -1,0 +1,33 @@
+{
+  "name": "QYTableViewModel",
+  "version": "0.1.0",
+  "summary": "TableView Model配置",
+  "description": "TableView Model配置",
+  "homepage": "https://github.com/fanfanqy/QYTableViewModel.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fanfanqy": "489863961@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/fanfanqy/QYTableViewModel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "QYTableViewModel/Classes/**/*",
+  "resource_bundles": {
+    "QYTableViewModel": [
+      "QYTableViewModel/Assets/*.png"
+    ]
+  },
+  "prefix_header_contents": "#ifdef __OBJC__\n\n#import <Foundation/Foundation.h>\n#import <UIKit/UIKit.h>\n#import <Masonry/Masonry.h>\n#import \"UIImage+QYBundle.h\"\n\n#import \"QYTableViewModelConst.h\"\n#endif",
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
+}
