@@ -41,6 +41,8 @@
 }
 
 - (void)setCardShadowType:(CardShadowType)cardShadowType {
+    self.hideBottomLine = YES;
+    self.hideHighlightedView = YES;
     _cardShadowType = cardShadowType;
     switch (_cardShadowType) {
         case CardShadowNone:
